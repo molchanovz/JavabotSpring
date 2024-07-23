@@ -7,7 +7,6 @@ import com.example.javabotspring.Logic.Entities.Product;
 import com.example.javabotspring.Logic.Entities.Sale;
 import com.example.javabotspring.Logic.Entities.Stock;
 import com.example.javabotspring.Logic.googleSheets.GoogleService;
-import com.example.javabotspring.Logic.googleSheets.Tests.WildberriesTests.TestStocks;
 import org.json.JSONArray;
 import org.json.JSONException;
 
