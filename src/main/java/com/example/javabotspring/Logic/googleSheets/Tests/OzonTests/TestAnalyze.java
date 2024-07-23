@@ -1,21 +1,13 @@
 package com.example.javabotspring.Logic.googleSheets.Tests.OzonTests;
 
-import com.example.javabotspring.Bot.components.Service;
-import com.example.javabotspring.Logic.Clasters.Ozon.Claster;
+import com.example.javabotspring.Bot.Protection;
 import com.example.javabotspring.Logic.Entities.Stock;
-import com.example.javabotspring.Logic.OzonHandler.OzonApiToEntity;
 import com.example.javabotspring.Logic.googleSheets.GoogleService;
 import com.example.javabotspring.Logic.googleSheets.OzonAnalyze;
 import com.example.javabotspring.Logic.googleSheets.Product;
-import org.apache.http.util.EntityUtils;
-import org.apache.tools.ant.taskdefs.optional.Cab;
-import org.json.JSONArray;
 import org.json.JSONException;
-import org.json.JSONObject;
 
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.security.GeneralSecurityException;
 import java.util.ArrayList;
@@ -24,8 +16,8 @@ import java.util.List;
 
 
 public class TestAnalyze {
-    static final String clientId = "259267";
-    static final String key = "451952b2-a29b-4f7e-819e-3fd96f580fbc";
+    static final String clientId = Protection.clientId;
+    static final String key = Protection.ozonKey;
 
     public static void main(String[] args) throws JSONException, IOException, InterruptedException, GeneralSecurityException {
         List<Stock> stocks;
