@@ -4,7 +4,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 src/main/resources
-src/main/java/com/example/javabotspring/Bot/Protection.java
+src/main/java/com/example/javabotspring/Protection.java
 
 ### STS ###
 .apt_generated
